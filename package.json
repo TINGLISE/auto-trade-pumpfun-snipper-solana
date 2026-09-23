@@ -1,0 +1,26 @@
+{
+  "name": "pumpfun-auto-moon-shoot",
+  "version": "3.5.19",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dashboard": "node src/dashboard.js",
+    "test:smoke": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "@pump-fun/pump-sdk": "2.0.0",
+    "@pump-fun/pump-swap-sdk": "1.20.0",
+    "@solana/web3.js": "^1.98.4",
+    "better-sqlite3": "12.10.1",
+    "bn.js": "^5.2.2",
+    "bs58": "^6.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "ws": "^8.18.0"
+  }
+}
